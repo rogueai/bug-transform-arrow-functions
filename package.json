@@ -1,0 +1,36 @@
+{
+  "name": "bug-transform-arrow-functions",
+  "description": "",
+  "version": "0.1.0",
+  "author": {
+    "name": "Massimo Zugno",
+    "email": "mzu@pm.me"
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "babel-plugin"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir lib"
+  },
+  "peerDependencies": {
+    "@babel/core": "7.0.0-beta.51"
+  },
+  "dependencies": {
+    "@babel/helper-module-imports": "7.0.0-beta.51",
+    "@babel/helper-plugin-utils": "7.0.0-beta.51"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.0.0-beta.51",
+    "@babel/core": "7.0.0-beta.51",
+    "@babel/helper-plugin-test-runner": "7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "@babel/preset-flow": "^7.0.0-beta.51",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.0.1",
+    "jest": "^23.1.0",
+    "js-levenshtein": "^1.1.3"
+  }
+}

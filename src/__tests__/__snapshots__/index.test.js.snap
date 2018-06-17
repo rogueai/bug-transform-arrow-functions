@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should transform arrow function with spec: false 1`] = `
+"\\"use strict\\";
+
+true ? [].forEach(function (x) {
+  return x;
+}) : void 0;"
+`;
+
+exports[`should transform arrow function with spec: true 1`] = `
+"\\"use strict\\";
+
+true ? 'a'.indexOf('a') : 'a'.indexOf('a');"
+`;
